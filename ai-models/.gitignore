@@ -1,0 +1,21 @@
+
+
+# Temporary files created during training or processing
+*.log
+*.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+/yolov11/uploads/

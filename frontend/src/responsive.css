@@ -1,0 +1,14 @@
+/* responsive.css */
+.desktop-view { display: block; }
+.tablet-view { display: none; }
+.mobile-view { display: none; }
+
+@media (max-width: 1024px) {
+  .desktop-view { display: none; }
+  .tablet-view { display: block; }
+}
+
+@media (max-width: 768px) {
+  .tablet-view { display: none; }
+  .mobile-view { display: block; }
+}
